@@ -1,0 +1,68 @@
+.landing {
+    width: 100%;
+    background-color: white;
+    position: fixed;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+nav a {
+    display:inline-block;
+    padding: 15px;
+    font-family: 'Source Sans Pro Topnav', sans-serif;
+    font-size: 21px;
+    color: rgb(65, 52, 55);
+    text-decoration:none;
+    z-index: 10;
+}
+nav a:hover{
+    color: white;
+    background-color: #0d6efd;
+}
+button:hover {
+    opacity: 0.8;
+}
+
+.landing-container {
+    margin-top: 61.5px;
+    position: absolute;
+    display: flex;
+    width: 100%;
+    background-color: white;
+    z-index: -1;
+}
+
+.nav-list {
+    margin-right: 50px;
+    margin-left: 80px;
+    height: 100%;
+}
+.logo {
+    margin-left: 40px;
+}
+
+.login {
+    position: absolute;
+    right: 70px;
+}
+
+.register {
+    position: absolute;
+    right: 221px;
+}
+
+.App-logo {
+    width: 95px;
+    height: auto;
+}
+
+.pg-container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.pg-footer {
+    width: 100%;
+    height: 100%;
+    bottom: 0px;
+    background-color: red;
+}

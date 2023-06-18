@@ -1,0 +1,45 @@
+.board-container {
+    margin-top: 5px;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: #89cff0;
+}
+
+.col-33 {
+    width: 220px;
+    min-width: 220px;
+    height: auto;
+    background-color: yellow;
+    border-right: 1px black solid;
+    display: block;
+}
+
+.col-66 {
+    width: 100%;
+    height: auto;
+    background-color: red;
+    justify-content: right;
+}
+
+.mission {
+    background-color: aliceblue;
+    width: 100%;
+    height: auto;
+}
+
+.all-project {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.create-ws {
+    display: inline-flex;
+}
+
+.cong-symbol {
+    text-align: right;
+    font-size: 20px;
+    margin-left: 50px;
+}
